@@ -73,7 +73,7 @@
 
         .wrap {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 40% 60%;
             min-height: 100vh;
             max-width: 1440px;
             margin: 0 auto;
@@ -661,9 +661,9 @@
 
         <aside class="panel-left">
             <div>
-                <p class="eyebrow">Portfolio — 2026</p>
+                <p class="eyebrow">Portfolio</p>
                 <div class="name-block">
-                    <h1>Chang<br><em>Yu Feng</em></h1>
+                    <h1>Chang <em>YuFeng</em></h1>
                     <p class="role">PM &amp; Developer · CCU</p>
                 </div>
                 <p class="tagline">Cross-disciplinary background, bridging humanistic insight with structured,
@@ -688,7 +688,7 @@
                         </svg>
                         GitHub
                     </a>
-                    <a href="https://linkedin.com/" target="_blank" rel="noopener">
+                    <a href="http://www.linkedin.com/in/jessie-chang-886485397" target="_blank" rel="noopener">
                         <svg viewBox="0 0 24 24">
                             <path
                                 d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
@@ -783,6 +783,49 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Societies & Volunteering Section -->
+                <div class="sec-head" style="margin-top: 60px; margin-bottom: 24px;">
+                    <h3 style="font-family: var(--serif); font-size: 24px; color: var(--text); font-style: italic;">
+                        Societies &amp; Volunteering</h3>
+                    <div class="sec-rule"></div>
+                </div>
+
+                <div class="exp-list">
+                    <div class="exp-row">
+                        <div class="exp-period">Sep 2023<br>Jun 2024</div>
+                        <div>
+                            <div class="exp-title">Departmental Student Association Officer</div>
+                            <ul class="exp-points">
+                                <li>Planned departmental sports and major events, coordinating workflows and
+                                    cross-departmental collaboration.</li>
+                                <li>Coordinated freshman cup matches and team management, designing registration
+                                    mechanisms and administrative processes.</li>
+                                <li>Participated in planning orientations, departmental BBQs, and seasonal events to
+                                    ensure smooth execution.</li>
+                                <li>Managed real-time on-site dispatching and emergency handling during events.</li>
+                                <li>Successfully managed multiple events, increasing departmental engagement and
+                                    cohesion.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="exp-row">
+                        <div class="exp-period">Sep 2023<br>Jun 2024</div>
+                        <div>
+                            <div class="exp-title">Captain, FL Women's Volleyball Team</div>
+                            <ul class="exp-points">
+                                <li>Led a cross-departmental joint team (FL × Philosophy), managing training schedules
+                                    and team operations.</li>
+                                <li>Collaborated with the coach to formulate tactical training plans and division of
+                                    labor.</li>
+                                <li>Coordinated competition schedules and cross-team communications for seamless match
+                                    arrangements.</li>
+                                <li>Improved team attendance and cohesion through systematic adjustments and member
+                                    communication.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section id="projects">
@@ -792,46 +835,106 @@
                     <div class="sec-rule"></div>
                 </div>
                 <div class="proj-list">
-                    <div class="proj-row">
+                    <a href="https://sua-web.vercel.app/" target="_blank" class="proj-row"
+                        style="text-decoration: none;">
                         <div>
                             <div class="proj-label">Web · OMO Experience Design</div>
                             <div class="proj-name">Exhibition Website</div>
-                            <p class="proj-desc">QR code–based OMO interaction flow connecting physical visits to a
-                                digital narrative. Integrated GA4, Vercel Analytics, and a Google Apps Script feedback
-                                system.</p>
-                            <div class="proj-metrics">
+                            <p class="proj-desc" style="font-style: italic; color: var(--text); margin-bottom: 12px;">
+                                Online-Merge-Offline narrative experience with real-time feedback data flow.</p>
+                            <ul class="exp-points">
+                                <li>Collaborated with a cafe curation team to design a QR code entry mechanism,
+                                    transforming physical visits into a digital narrative experience.</li>
+                                <li>Planned user journeys and information architecture, designing staged content nodes
+                                    to enhance emotional connection and engagement depth.</li>
+                                <li>Integrated Google Apps Script and Google Sheets to centralize online feedback data.
+                                </li>
+                                <li>Implemented GA4 to track user behavior, analyzing dwell time and interaction depth.
+                                </li>
+                            </ul>
+                            <div class="proj-metrics" style="margin-top: 12px;">
                                 <span class="proj-metric">↑ 127% visitor growth</span>
                                 <span class="proj-metric">↑ 91% page views</span>
                             </div>
-                            <div class="chips"><span class="chip">GA4</span><span class="chip">Vercel</span><span
-                                    class="chip">Apps Script</span></div>
                         </div>
                         <div class="proj-arrow">↗</div>
-                    </div>
-                    <div class="proj-row">
+                    </a>
+
+                    <a href="https://dalin-farmer-annual-presentation.vercel.app/" target="_blank" class="proj-row"
+                        style="text-decoration: none;">
                         <div>
                             <div class="proj-label">Web · Public Sector Digital Transformation</div>
                             <div class="proj-name">Dalin Farmers' Festival Website</div>
-                            <p class="proj-desc">Conducted stakeholder requirements interviews, redefined target
-                                audiences, and designed a layered information architecture to improve content
-                                discoverability for diverse user groups.</p>
-                            <div class="chips"><span class="chip">UX Research</span><span class="chip">IA
-                                    Design</span><span class="chip">HTML/CSS</span></div>
+                            <p class="proj-desc" style="font-style: italic; color: var(--text); margin-bottom: 12px;">
+                                Transforming annual achievement displays into an intuitive, sustainable digital
+                                platform.</p>
+                            <ul class="exp-points">
+                                <li>Clarified requirements with organizers to redefine achievement presentation and
+                                    target audiences.</li>
+                                <li>Designed a layered information architecture enabling different user groups to
+                                    quickly locate desired content.</li>
+                                <li>Utilized Vercel for deployment and maintenance, ensuring update efficiency and
+                                    stability.</li>
+                            </ul>
                         </div>
                         <div class="proj-arrow">↗</div>
-                    </div>
-                    <div class="proj-row">
+                    </a>
+
+                    <a href="https://github.com/JessieBird/line-nutrition-bot" target="_blank" class="proj-row"
+                        style="text-decoration: none;">
                         <div>
                             <div class="proj-label">LINE Bot · Generative AI Application</div>
                             <div class="proj-name">Nutrition Analyzer</div>
-                            <p class="proj-desc">Built a LINE chatbot integrating LINE Messaging API and OpenAI API;
-                                optimized prompt engineering and input logic to improve response accuracy and
-                                conversational UX.</p>
-                            <div class="chips"><span class="chip">LINE API</span><span class="chip">OpenAI</span><span
-                                    class="chip">Prompt Eng.</span><span class="chip">Python</span></div>
+                            <p class="proj-desc" style="font-style: italic; color: var(--text); margin-bottom: 12px;">
+                                Feasibility study of Generative AI in daily health management scenarios.</p>
+                            <ul class="exp-points">
+                                <li>Designed conversational input logic to lower the barrier for users to query
+                                    nutritional information.</li>
+                                <li>Integrated LINE Messaging API and OpenAI API to establish a real-time response
+                                    mechanism.</li>
+                                <li>Optimized prompt design and error handling processes to improve response stability.
+                                </li>
+                                <li>Verified AI accuracy and feasibility in lifestyle applications through various input
+                                    scenarios.</li>
+                            </ul>
                         </div>
                         <div class="proj-arrow">↗</div>
-                    </div>
+                    </a>
+
+                    <a href="https://github.com/JessieBird/daai-news-scraper" target="_blank" class="proj-row"
+                        style="text-decoration: none;">
+                        <div>
+                            <div class="proj-label">Data Automation · News Scraper</div>
+                            <div class="proj-name">News Scraper &amp; Data Tool</div>
+                            <p class="proj-desc" style="font-style: italic; color: var(--text); margin-bottom: 12px;">
+                                Improving data collection efficiency and organizational speed.</p>
+                            <ul class="exp-points">
+                                <li>Developed a Python batch scraper for historical news data.</li>
+                                <li>Designed automated classification and organization workflows to aggregate data by
+                                    date.</li>
+                                <li>Outputted to Excel files to streamline downstream data analysis.</li>
+                            </ul>
+                        </div>
+                        <div class="proj-arrow">↗</div>
+                    </a>
+
+                    <a href="https://changyufeng18.wixsite.com/englishwriting" target="_blank" class="proj-row"
+                        style="text-decoration: none;">
+                        <div>
+                            <div class="proj-label">Academic Writing · Portfolio</div>
+                            <div class="proj-name">English Writing Portfolio</div>
+                            <p class="proj-desc" style="font-style: italic; color: var(--text); margin-bottom: 12px;">
+                                Individual and collaborative essays across diverse rhetorical styles.</p>
+                            <ul class="exp-points">
+                                <li>Created during a sophomore writing course, exploring both individual and
+                                    team-based writing methodologies.</li>
+                                <li>Features a collection of essays covering four key styles: Cause-Effect, Comparison,
+                                    Reaction, and Argument.</li>
+                                <li>Showcases all content on a custom-designed Wix digital platform.</li>
+                            </ul>
+                        </div>
+                        <div class="proj-arrow">↗</div>
+                    </a>
                 </div>
             </section>
 
@@ -887,18 +990,30 @@
                     <div class="award-row">
                         <div class="award-icon">4<sup style="font-size:14px">th</sup></div>
                         <div>
-                            <div class="award-name">2025 RegTech &amp; Computer Auditing Competition</div>
-                            <p class="award-body">Lead presenter in the finals — articulated ML model logic and
-                                real-world applications while showcasing a custom risk score visualization interface and
-                                front-end website.</p>
+                            <div class="award-name">2025 RegTech &amp; Computer Auditing Competition | Excellence Award
+                                (4th Place)</div>
+                            <div class="award-body">
+                                <p style="font-weight: 500; color: var(--text); margin-bottom: 8px;">Building a Machine
+                                    Learning-powered Transaction Risk Assessment System</p>
+                                <ul class="exp-points">
+                                    <li>Collaborated with the team to develop risk control models identifying suspicious
+                                        transaction behaviors.</li>
+                                    <li>Responsible for front-end architecture and development; built a query interface
+                                        for User ID-based transaction feature inspection.</li>
+                                    <li>Designed visualization for risk factors and risk scores to enhance
+                                        decision-making readability.</li>
+                                    <li>Served as lead presenter in the finals, articulating model logic and application
+                                        scenarios.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="award-row">
-                        <div class="award-icon" style="font-size:22px;padding-top:4px">✦</div>
+                        <div class="award-icon">14<sup style="font-size:14px">th</sup></div>
                         <div>
-                            <div class="award-name">Student Association Officer</div>
-                            <p class="award-body">Coordinated large-scale departmental events and cross-department
-                                collaboration.</p>
+                            <div class="award-name">2025 Youth Fact-Checking Challenge</div>
+                            <p class="award-body">Ranked 14th in the national competition focused on digital literacy
+                                and information verification skills.</p>
                         </div>
                     </div>
                 </div>
@@ -908,7 +1023,7 @@
     </div>
 
     <footer>
-        <span>Chang Yu Feng © 2026</span>
+        <span>Chang Yu Feng ©</span>
         <span>Built with intention, not a template</span>
     </footer>
 
